@@ -281,7 +281,7 @@
 
     .cards .card:nth-child(1),
   .card:nth-child(2) {
-    width: calc(50% - 15px);
+    width: 49;
     margin-bottom: 15px;
     height: auto;
     flex-basis: auto;
@@ -295,7 +295,7 @@
       font-size: 25px;
     }
     .card .media img {
-      height: 200px;
+      height: 150px;
     }
   }
  
