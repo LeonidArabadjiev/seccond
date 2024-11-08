@@ -238,7 +238,7 @@
   }
 
 
-  @media screen and (max-width: 991px){
+ @media screen and (max-width: 991px){
     .route66-text, .menu-button, .copyright{
         font-size: 18px;
       }
@@ -273,15 +273,17 @@
     }
     .cards{
         width: 90%;
-        height: 70vh;
-        margin-top: 100px;
+        height: 50vh;
+        margin-top: 150px;
         margin-bottom: 100px;
-
+    }
+    .card{
+        padding: 5px;
     }
 
     .cards .card:nth-child(1),
   .card:nth-child(2) {
-    width: 49;
+    width: 49%;
     margin-bottom: 15px;
     height: auto;
     flex-basis: auto;
@@ -290,12 +292,19 @@
   .cards .card:last-child {
     width: 99%;
     margin-top: 0;
+    padding: 10px 20px;
   } 
-    .card h2 {
+  .card .content h2 {
       font-size: 25px;
+      padding: 10px;
     }
     .card .media img {
-      height: 150px;
+      height: 100px;
+      width: 100%;
     }
+    .card:last-child .media img {
+        height: 150px;
+        width: 100%;
+      }
   }
  
